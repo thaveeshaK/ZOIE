@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675741797515",
+    "project_id": "zoie-3e1fb",
+    "storage_bucket": "zoie-3e1fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675741797515:android:2328a3a42f569dd3b7d88e",
+        "android_client_info": {
+          "package_name": "me.thaveesha.zoie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675741797515-4oahnn0b4cfuf5qic1rm69ehvsdksn5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTZfz3PwrnIphjQFTW80dBiKys6oixHqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675741797515-4oahnn0b4cfuf5qic1rm69ehvsdksn5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

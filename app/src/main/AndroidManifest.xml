@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.thaveesha.zoie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_securty_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZOIE">
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".medi_story_page" />
+        <activity android:name=".medi_motivation_page" />
+        <activity android:name=".MeditationMainPage" />
+        <activity android:name=".RequestSentimentAnalyze" />
+        <activity android:name=".retreiveMoodDetails" />
+        <activity android:name=".DBService" />
+        <activity android:name=".ArticlePage" />
+        <activity android:name=".Rest_Analytics_Page" />
+        <activity android:name=".Mood_Analyzer_Dualbar_Chart" >
+
+        </activity>
+        <activity android:name=".Mood_Analyzer_Bar_Chart" />
+        <activity android:name=".Mood_Analyzer_LineChart" >
+
+        </activity>
+        <activity android:name=".Mood_Analyzer_Pie_Chart" >
+
+        </activity>
+        <activity android:name=".notificationService" >
+
+        </activity>
+        <activity android:name=".ToDoActivity" >
+
+        </activity>
+        <activity android:name=".Dashboard2" />
+        <activity android:name=".introSeventhPage" />
+        <activity android:name=".introSixthPage" />
+        <activity android:name=".introFifthPage" />
+        <activity android:name=".introFourthPage" />
+        <activity android:name=".introThirdPage" />
+        <activity android:name=".introSecondPage" />
+        <activity android:name=".introFirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserProfile" >
+
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".splashActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

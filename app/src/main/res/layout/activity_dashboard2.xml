@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Dashboard2">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="20dp">
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/lblDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="monospace"
+
+            android:text="DASHBOARD"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblDashboard"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:text="'@thaveesha"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnGoToChatbot"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="52dp"
+        android:text="Talk with ZOIE"
+        app:backgroundTint="@color/yellow"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <Button
+        android:id="@+id/btnGoToMyAnalytics"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:text="My Analytics"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoToChatbot"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnGoToChatbot"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToChatbot"
+        app:layout_constraintVertical_bias="0.25" />
+
+
+
+    <Button
+        android:id="@+id/btnGoToNotifications"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="20dp"
+        android:text="Reminders"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoToMyAnalytics"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnGoToMyAnalytics"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToChatbot" />
+
+    <Button
+        android:id="@+id/btnGoToMeditation"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:text="Meditation"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoToNotifications"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnGoToNotifications"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToMyAnalytics" />
+
+    <Button
+        android:id="@+id/btnGoToToDoList"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="To Do List"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoToMeditation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnGoToMeditation"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToMeditation"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <Button
+        android:id="@+id/btnGoToUserProfile"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Profile"
+        app:backgroundTint="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnGoToMeditation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnGoToToDoList"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoToToDoList"
+        app:layout_constraintVertical_bias="0.047" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
